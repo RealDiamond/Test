@@ -1,8 +1,48 @@
 * {
-	padding: 0;
+	padding: 0; 
 	margin: 0;
 }
 
-#root h3 {
-	text-align: center;
+html, body {
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
 }
+
+#menu {
+	display: block; 
+	text-align: center; 
+	width: 50%; 
+	margin: 22% auto;
+	padding: 5px;
+}
+
+.logo {
+	object-fit: cover; 
+	width: 180px; 
+	height: 180px; 
+	border-radius: 50%;
+}
+
+.title {
+	color: #FFFFFF; 
+	font-size: 30px; 
+}
+
+.copyright {position: fixed; top: 95%}
+.copyright a {text-decoration: none}
+
+.fa {padding: 20px;}
+.fa-vk {color: #4A76A8; border-bottom: 1px solid #8a8a8a; opacity: 0.6}
+.fa-twitter {color: #33BEF1; border-bottom: 1px solid #8a8a8a; opacity: 0.6}
+.fa-github {color: #7C278E; border-bottom: 1px solid #8a8a8a; opacity: 0.6}
+.fa-steam {color: #FFFFFF; border-bottom: 1px solid #8a8a8a; opacity: 0.6}
+.fa-copyright {color: #FFFFFF; opacity: 0.5}
+
+.fa-vk:hover {border-bottom: 1px solid #FFFFFF; transition: all .5s; opacity: 1}
+.fa-twitter:hover {border-bottom: 1px solid #FFFFFF; transition: all .5s; opacity: 1}
+.fa-github:hover {border-bottom: 1px solid #FFFFFF; transition: all .5s; opacity: 1}
+.fa-steam:hover {border-bottom: 1px solid #FFFFFF; transition: all .5s; opacity: 1}
+.fa-copyright:hover {opacity: 1; transition: all .5s}
